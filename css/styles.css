@@ -2,16 +2,42 @@ body{
     background:  #02010a;
 }
 header{
-    background: #82c3a6;
+    background:  #5b7989;
     color:  #02010a;
+    margin: 0 auto;
 }
 footer{
+    clear: both;
     background:  #C6d5c5;
 }
-.imgprincipal img{
+
+#contenido {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#imgprincipal{
+    background: #82c3a6;
+}
+#imgprincipal img{
     align-items: center;
     width: 80%;
 }
-.imgretrato img,.imgpaisaje img{
+#imgretrato{
+    background:  #d5c75f;
+    border: 1px;
     width: 50%;
+    float: right;
+    margin: 1px;
 }
+#imgpaisaje{
+    background:  #d5c75f;
+    border: 1px;
+    width: 50%;
+    float: left;
+    margin: 1px;
+}
+#imgretrato img,#imgpaisaje img{
+    width: 90%;
+}
+
