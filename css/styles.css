@@ -1,43 +1,149 @@
-body{
-    background:  #02010a;
+*
+{
+	margin:0;
 }
-header{
-    background:  #5b7989;
-    color:  #02010a;
-    margin: 0 auto;
+
+body{
+	background:   #02010a;
+	color: black;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+#contenido
+{
+	width: 900px;
+	margin: 0 auto;
+}
+
+header
+{
+	margin: 0 auto;
+	height: 1em;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: #5b7989;
+	color: #02010a;
 }
 footer{
     clear: both;
-    background:  #C6d5c5;
+    background-color:  #C6d5c5;
 }
 
-#contenido {
-    width: 900px;
-    margin: 0 auto;
+article
+{
+	box-sizing: border-box;
+	float:left;
+    background-color: #d5c75f;
+	padding: 2%;
+	text-align: center;
+	
 }
 
-#imgprincipal{
-    background: #82c3a6;
+#imgprincipal
+{
+background-color: #82c3a6;
+width: 100%;
+
 }
 #imgprincipal img{
-    align-items: center;
-    width: 80%;
+    width: 100%;
 }
-#imgretrato{
-    background:  #d5c75f;
-    border: 1px;
-    width: 50%;
-    float: right;
-    margin: 1px;
+#imgretrato img{
+    width: 100%;
 }
-#imgpaisaje{
-    background:  #d5c75f;
-    border: 1px;
-    width: 50%;
-    float: left;
-    margin: 1px;
-}
-#imgretrato img,#imgpaisaje img{
-    width: 90%;
+#imgpaisaje img{
+    width: 100%;
 }
 
+#imgretrato
+{
+background-color:  #d5c75f;
+width: 50%;
+}
+#imgpaisaje
+{
+background-color:  #d5c75f;
+width: 50%;
+}
+
+#retrato1{
+    width: 33.3%;
+}
+#retrato2{
+    width: 33.3%;
+}
+#retrato3{
+    width: 33.3%;
+}
+#retrato4{
+    width: 33.3%;
+}
+#retrato5{
+    width: 33.3%;
+}
+#retrato6{
+    width: 33.3%;
+}
+#paisaje1{
+    width: 33.3%;
+}
+#paisaje2{
+    width: 33.3%;
+}
+#paisaje3{
+    width: 33.3%;
+}
+#paisaje4{
+    width: 33.3%;
+}
+#paisaje5{
+    width: 33.3%;
+}
+#paisaje6{
+    width: 33.3%;
+}
+@media screen and (max-width: 900px){
+
+	#wrapper
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 640px){
+
+	#wrapper
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 480px){
+
+#contenido
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#columna1
+	{
+	width: 100%;
+	}
+	#columna2
+	{
+	width: 100%;
+	}
+	#columna3
+	{
+	width: 100%;
+	}
+
+	header
+	{
+	width:100%;
+	}
+
+}
