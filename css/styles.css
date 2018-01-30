@@ -19,7 +19,6 @@ body{
 header
 {
 	margin: 0 auto;
-	height: 1em;
 	padding-top: 2%;
 	padding-bottom: 2%;
 	background-color: #5b7989;
@@ -29,6 +28,13 @@ footer{
     clear: both;
     background-color:  #C6d5c5;
 }
+.lista{
+    list-style-type: none;
+}
+#menu2 ul li{
+    display: inline;
+}
+
 
 article
 {
@@ -38,6 +44,12 @@ article
 	padding: 2%;
 	text-align: center;
 	
+}
+#menu1{
+    width: 50%
+}
+#menu2{
+    width: 50%
 }
 
 #imgprincipal
