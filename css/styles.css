@@ -2,6 +2,11 @@
 {
 	margin:0;
 }
+/*fuente de letra*/
+@font-face{
+    font-family:"Dancing Script OT";
+    src:url('font/DancingScript-Regular.otf');
+}
 
 body{
 	background:   #02010a;
@@ -21,14 +26,18 @@ header
 	margin: 0 auto;
 	background-color: #5b7989;
 	color: white;
+    border-radius:  10px 10px 0 0;
 }
+
 footer{
     clear: both;
     background-color:  #C6d5c5;
+    border-radius: 0 0 10px 10px;
 }
 .lista{
     list-style-type: none;
 }
+
 #menu2 ul li{
     display: inline;
 }
@@ -43,9 +52,11 @@ article
 	text-align: center;
 	
 }
+
 #menu1{
     width: 50%
 }
+
 #menu2{
     width: 50%
 }
@@ -56,15 +67,7 @@ background-color: #82c3a6;
 width: 100%;
 
 }
-#imgprincipal img{
-    width: 100%;
-}
-#imgretrato img{
-    width: 100%;
-}
-#imgpaisaje img{
-    width: 100%;
-}
+
 /*seccciones*/
 #imgretrato
 {
@@ -76,7 +79,7 @@ width: 50%;
 background-color:  #d5c75f;
 width: 50%;
 }
-
+/*retratos*/
 #retrato1{
     width: 33.3%;
 }
@@ -95,6 +98,8 @@ width: 50%;
 #retrato6{
     width: 33.3%;
 }
+
+/*paisajes*/
 #paisaje1{
     width: 33.3%;
 }
@@ -113,6 +118,11 @@ width: 50%;
 #paisaje6{
     width: 33.3%;
 }
+
+.activo{
+    text-decoration: none;
+}
+
 @media screen and (max-width: 900px){
 
 	#contenido
@@ -158,6 +168,7 @@ width: 100%;
 #retrato6{
     width: 100%;
 }
+    
 #paisaje1{
     width: 100%;
 }
