@@ -19,6 +19,7 @@ body{
 {
 	width: 900px;
 	margin: 0 auto;
+    animation: movimiento 3s;
     
 }
 
@@ -50,7 +51,7 @@ article
 	text-align: center;
 	
 }
-/*efectos*/
+/*efectos imagenes*/
 .efecto1{
     -webkit-filter:blur(10px);
     filter:blur(10px);
@@ -117,6 +118,34 @@ width: 50%;
 }
 
 /*fin footer*/
+/*efectos*/
+#imgpaisaje img:hover{
+    transform: rotate(10deg);
+    box-shadow:  #82c3a6;
+    border: 2px
+
+}
+#imgretrato img:hover{
+    transform: translate(20px,-5px);
+    box-shadow:  #82c3a6;
+    border: 2px
+}
+
+/*fin de efecto*/
+/*animaciones*/
+@-webkit-keyframes movimiento{
+    0%{
+        margin-top: 150%
+    }
+    60%{
+        margin-top: -5%
+    }
+    100%{
+        0%
+    }
+    
+}
+/*animinaciones*/
 
 @media screen and (min-width: 900px){
     .footer1{
