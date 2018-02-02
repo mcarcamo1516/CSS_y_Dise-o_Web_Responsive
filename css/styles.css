@@ -32,7 +32,7 @@ header
 }
 
 footer{
-    clear: both;
+    clear:left;
     background-color:  #C6d5c5;
     border-radius: 0 0 10px 10px;
 }
@@ -70,7 +70,8 @@ h1{
 /*menu */
 .menuprincipal{
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
+    width: 100%;
 }
 .menu1{
     width: 50%
@@ -103,45 +104,7 @@ width: 50%;
 background-color:  #d5c75f;
 width: 50%;
 }
-/*retratos*/
-#retrato1{
-    width: 33.3%;
-}
-#retrato2{
-    width: 33.3%;
-}
-#retrato3{
-    width: 33.3%;
-}
-#retrato4{
-    width: 33.3%;
-}
-#retrato5{
-    width: 33.3%;
-}
-#retrato6{
-    width: 33.3%;
-}
 
-/*paisajes*/
-#paisaje1{
-    width: 33.3%;
-}
-#paisaje2{
-    width: 33.3%;
-}
-#paisaje3{
-    width: 33.3%;
-}
-#paisaje4{
-    width: 33.3%;
-}
-#paisaje5{
-    width: 33.3%;
-}
-#paisaje6{
-    width: 33.3%;
-}
 
 .activo{
     text-decoration: none;
@@ -149,85 +112,149 @@ width: 50%;
 /*organisacion de footer*/
 .footer{
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
+    width: 100%;
 }
-.footer1{
-    width: 25%;
-}
-.footer2{
-    width: 25%;
-}
-.footer3{
-    width: 25%;
-}
-.footer4{
-    width: 25%;
-}
+
 /*fin footer*/
+
+@media screen and (min-width: 900px){
+    .footer1{
+        width: 25%;
+    }
+    .footer2{
+        width: 25%;
+    }
+    .footer3{
+        width: 25%;
+    }
+    .footer4{
+        width: 25%;
+    }
+    /*retratos*/
+    #retrato1{
+        width: 33.3%;
+    }
+    #retrato2{
+        width: 33.3%;
+    }
+    #retrato3{
+        width: 33.3%;
+    }
+    #retrato4{
+        width: 33.3%;
+    }
+    #retrato5{
+        width: 33.3%;
+    }
+    #retrato6{
+        width: 33.3%;
+    }
+
+    /*paisajes*/
+    #paisaje1{
+        width: 33.3%;
+        order: 1;
+    }
+    #paisaje2{
+        width: 33.3%;
+        order: 2;
+    }
+    #paisaje3{
+        width: 33.3%;
+        order: 3;
+    }
+    #paisaje4{
+        width: 33.3%;
+        order: 4;
+    }
+    #paisaje5{
+        width: 33.3%;
+        order: 5;
+    }
+    #paisaje6{
+        width: 33.3%;
+        order: 6;
+    }
+
+}
 
 @media screen and (max-width: 900px){
 
-	#contenido
-	{
-		width: 100%;
-		margin: 0 auto;
-	}
-}
+    #contenido
+        {
+            width: 100%;
+            margin: 0 auto;
+        }
+    #imgretrato
+    {
 
-@media screen and (max-width: 480px){
+    width: 100%;
+    }
+    #imgpaisaje
+    {
 
-#contenido
-	{
-		width: 100%;
-		margin: 0 auto;
-	}
-#imgretrato
-{
+    width: 100%;
+    }
 
-width: 100%;
-}
-#imgpaisaje
-{
+    #retrato1{
+        width: 100%;
+    }
+    #retrato2{
+        width: 100%;
+    }
+    #retrato3{
+        width: 100%;
+    }
+    #retrato4{
+        width: 100%;
+    }
+    #retrato5{
+        width: 100%;
+    }
+    #retrato6{
+        width: 100%;
+    }
 
-width: 100%;
-}
+    #paisaje1{
+        width: 100%;
+    }
+    #paisaje2{
+        width: 100%;
+    }
+    #paisaje3{
+        width: 100%;
+    }
+    #paisaje4{
+        width: 100%;
+    }
+    #paisaje5{
+        width: 100%;
+    }
+    #paisaje6{
+        width: 100%;
+    }
+    .footer1{
+        width: 100%;
+    }
+    .footer2{
+        width: 100%;
+    }
+    .footer3{
+        width: 100%;
+    }
+    .footer4{
+        width: 100%;
+    }
+    .menu1{
+        width: 100%;
+        order: 1;
 
-#retrato1{
-    width: 100%;
-}
-#retrato2{
-    width: 100%;
-}
-#retrato3{
-    width: 100%;
-}
-#retrato4{
-    width: 100%;
-}
-#retrato5{
-    width: 100%;
-}
-#retrato6{
-    width: 100%;
-}
-    
-#paisaje1{
-    width: 100%;
-}
-#paisaje2{
-    width: 100%;
-}
-#paisaje3{
-    width: 100%;
-}
-#paisaje4{
-    width: 100%;
-}
-#paisaje5{
-    width: 100%;
-}
-#paisaje6{
-    width: 100%;
-}
+    }
+
+    .menu2{
+        width: 100%;
+        order: 2;
+    }
 
 }
