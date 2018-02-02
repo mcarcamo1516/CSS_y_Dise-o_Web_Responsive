@@ -19,6 +19,7 @@ body{
 {
 	width: 900px;
 	margin: 0 auto;
+    
 }
 
 header
@@ -26,6 +27,7 @@ header
 	margin: 0 auto;
 	background-color: #5b7989;
 	color: white;
+    
     border-radius:  10px 10px 0 0;
 }
 
@@ -52,9 +54,27 @@ article
 	text-align: center;
 	
 }
+/*efectos*/
+.efecto1{
+    -webkit-filter:blur(10px);
+    filter:blur(10px);
+}
+.efecto2{
+    -webkit-filter:grayscale(100%);
+    filter:grayscale(100%);
+}
+.efecto3{
+    -webkit-filter:sepia(90%);
+    filter:sepia(90%);
+}
+
+h1{
+    text-shadow: 2px 2px #02010a;
+}
 
 #menu1{
     width: 50%
+    
 }
 
 #menu2{
