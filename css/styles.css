@@ -28,7 +28,6 @@ header
 	margin: 0 auto;
 	background-color: #5b7989;
 	color: white;
-    
     border-radius:  10px 10px 0 0;
 }
 
@@ -50,6 +49,13 @@ article
 	padding: 2%;
 	text-align: center;
 	
+}
+.menu ul li a{
+    color: white
+}
+.menu2{
+    text-align: center;
+   
 }
 /*efectos imagenes*/
 .efecto1{
@@ -117,6 +123,9 @@ width: 50%;
     width: 100%;
 }
 
+footer p{
+    text-align: center
+}
 /*fin footer*/
 /*efectos*/
 #imgpaisaje img:hover{
